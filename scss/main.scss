@@ -32,9 +32,51 @@ header {
     button {
       @include btnNav(white,#fb8f1d);
       border: 2px solid #fb8f1d;
+     
     }
     #btn2{
       @include btnNav(#fb8f1d,white)
     }
   }
 }
+
+.tablo{
+  display: flex;
+  margin-top:3rem;
+  height: 500px;
+  width: 1137px;
+  article{
+   
+  h1{
+    margin: 1rem;
+    font-size: 64px;
+    width: 510px;
+    height: 160px;
+  }
+  h4{
+    margin: 1rem;
+    font-size: 2rem;
+  }
+  div{
+    margin: 1rem;
+    margin-top: 2rem;
+  
+  select{
+    width: 245px;
+    height: 36px;
+    margin-top: 1rem;
+    border: 1px solid #afb0b9;
+    border-radius:8px;
+  }
+}
+  button{
+    @include btnNav(#fb8f1d,white);
+    margin-top:2rem;
+  }
+}
+.img1{
+  width: 500px;
+  height: 500px;
+}
+}
+
