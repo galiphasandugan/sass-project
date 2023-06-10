@@ -13,70 +13,78 @@ body {
   margin: 50px;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  img {
-    width: 50px;
-    height: 50px;
-  }
-  ul {
-    list-style-type: none;
-    li {
-      display: inline-block;
-      a {
-        text-decoration: none;
-      }
-    }
-    button {
-      @include btnNav(white,#fb8f1d);
-      border: 2px solid #fb8f1d;
+// header {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   img {
+//     width: 50px;
+//     height: 50px;
+//   }
+//   ul {
+//     list-style-type: none;
+//     li {
+//       display: inline-block;
+//       a {
+//         text-decoration: none;
+//       }
+//     }
+//     button {
+//       @include btnNav(white,#fb8f1d);
+//       border: 2px solid #fb8f1d;
      
-    }
-    #btn2{
-      @include btnNav(#fb8f1d,white)
-    }
-  }
-}
+//     }
+//     #btn2{
+//       @include btnNav(#fb8f1d,white)
+//     }
+//   }
+// }
 
-.tablo{
-  display: flex;
-  margin-top:3rem;
-  height: 500px;
-  width: 1137px;
-  article{
-   
-  h1{
-    margin: 1rem;
-    font-size: 64px;
-    width: 510px;
-    height: 160px;
-  }
-  h4{
-    margin: 1rem;
-    font-size: 2rem;
-  }
-  div{
-    margin: 1rem;
-    margin-top: 2rem;
+
+
+
+
+
+// .div3{
+//   margin: auto 2rem;
   
-  select{
-    width: 245px;
-    height: 36px;
-    margin-top: 1rem;
-    border: 1px solid #afb0b9;
-    border-radius:8px;
-  }
-}
-  button{
-    @include btnNav(#fb8f1d,white);
-    margin-top:2rem;
-  }
-}
-.img1{
-  width: 500px;
-  height: 500px;
-}
-}
+//   text-align: left;
+// }
+// h3{
+//   font-size: 2.4rem;
+// }
+// p{
+//   font-size: 1.3rem;
+//   line-height: 2rem;
+// }
 
+
+
+
+
+// .img-4 img{
+//   width: 250px;
+//   height: 325px;
+//   transition: 2s ease  ;
+//   &:hover{
+//     transform: scale(1.05);
+//   }
+  
+// }
+// .img-4{
+//   display: flex;
+//   position: relative;
+//   &:hover{
+//     transform: scale(1.);
+//   }
+
+// }
+// .img-4 p {
+//   position: absolute;
+//   color: black;
+//   bottom: 0;
+//   text-decoration: underline;
+//   border: 1px solid red;
+//   background-color: white;
+  
+// }

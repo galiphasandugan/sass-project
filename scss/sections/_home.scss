@@ -1,0 +1,27 @@
+.img-4 img{
+    width: 200px;
+    height: 260px;
+    transition: 2s ease  ;
+    margin-left: 1rem;
+    &:hover{
+      transform: scale(1.05);
+    }
+    
+  }
+  .img-4{
+    display: flex;
+    position: relative;
+    &:hover{
+      transform: scale(1.);
+    }
+  
+  }
+  .img-4 p {
+    position: absolute;
+    color: black;
+    bottom: 0;
+    text-decoration: underline;
+    border: 1px solid red;
+    background-color: white;
+    
+  }
